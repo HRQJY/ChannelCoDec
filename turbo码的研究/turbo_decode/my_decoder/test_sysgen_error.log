@@ -1,0 +1,24 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 9.2.00.967             D:/xilinx/dsp_tools/sysgen
+AccelDSP 9.2.00.967                     D:/xilinx/dsp_tools/AccelDSP
+Matlab 7.4.0.287 (R2007a)               D:/matlab
+ISE 9.2.i                               D:/xilinx/ise92i
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Illegal input type on port: data
+     Block: 'test/DDS v5_0 '
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'test/DDS v5_0 '
+
+Details:
+The data port is being driven by a Fix_16_0.
+The data port must be a Fix_28_N.
+
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------

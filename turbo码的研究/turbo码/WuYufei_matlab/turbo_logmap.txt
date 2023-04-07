@@ -1,0 +1,2909 @@
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     1
+ Please enter number of iterations for each frame: default 5       3
+ Please enter number of frame errors to terminate: default 15        
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Unpunctured, code rate = 1/3 
+ iteration number =       3
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+3 frames transmitted, 0 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8425e-002    4.1876e-003    0.0000e+000    
+Frame Error Rate (from iteration 1 to iteration 3):
+6.6667e-001    3.3333e-001    0.0000e+000    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+6 frames transmitted, 0 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+2.1357e-002    4.6064e-003    0.0000e+000    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    3.3333e-001    0.0000e+000    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+9 frames transmitted, 0 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8984e-002    3.0709e-003    0.0000e+000    
+Frame Error Rate (from iteration 1 to iteration 3):
+7.7778e-001    2.2222e-001    0.0000e+000    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+12 frames transmitted, 0 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.9263e-002    2.3032e-003    0.0000e+000    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    1.6667e-001    0.0000e+000    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+15 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+2.1776e-002    2.5126e-003    6.7002e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.6667e-001    2.6667e-001    1.3333e-001    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+18 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+2.1776e-002    2.0938e-003    5.5835e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    2.2222e-001    1.1111e-001    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+21 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+2.0818e-002    2.0340e-003    4.7858e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5714e-001    2.3810e-001    9.5238e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+24 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+2.1252e-002    1.7797e-003    4.1876e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    2.0833e-001    8.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+27 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.9821e-002    1.7681e-003    3.7223e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5185e-001    2.2222e-001    7.4074e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+30 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8090e-002    1.5913e-003    3.3501e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    2.0000e-001    6.6667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+33 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7664e-002    1.4466e-003    3.0455e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4848e-001    1.8182e-001    6.0606e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+36 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8216e-002    1.6052e-003    2.7917e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.6111e-001    1.9444e-001    5.5556e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+39 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8297e-002    1.4818e-003    2.5770e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7179e-001    1.7949e-001    5.1282e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+42 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7887e-002    1.3759e-003    2.3929e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8095e-001    1.6667e-001    4.7619e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+45 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7923e-002    1.2842e-003    2.2334e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    1.5556e-001    4.4444e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+48 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7222e-002    1.2039e-003    2.0938e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7500e-001    1.4583e-001    4.1667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+51 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7982e-002    1.1331e-003    1.9706e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8235e-001    1.3725e-001    3.9216e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+54 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8100e-002    1.0702e-003    1.8612e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    1.2963e-001    3.7037e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+57 frames transmitted, 2 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7588e-002    1.0138e-003    1.7632e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7719e-001    1.2281e-001    3.5088e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+60 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.8132e-002    1.5075e-003    3.7688e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8333e-001    1.3333e-001    5.0000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+63 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7787e-002    1.4756e-003    3.5894e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7302e-001    1.4286e-001    4.7619e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+66 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7055e-002    1.4086e-003    3.4262e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4848e-001    1.3636e-001    4.5455e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+69 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6787e-002    1.3473e-003    3.2773e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5507e-001    1.3043e-001    4.3478e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+72 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6436e-002    1.2912e-003    3.1407e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4722e-001    1.2500e-001    4.1667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+75 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6013e-002    1.2395e-003    3.0151e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4000e-001    1.2000e-001    4.0000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+78 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5848e-002    1.2563e-003    2.8991e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    1.2821e-001    3.8462e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+81 frames transmitted, 3 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6161e-002    1.2098e-003    2.7917e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3951e-001    1.2346e-001    3.7037e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+84 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6391e-002    1.2563e-003    3.8885e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4524e-001    1.3095e-001    4.7619e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+87 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6115e-002    1.2130e-003    3.7544e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3908e-001    1.2644e-001    4.5977e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+90 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5857e-002    1.1725e-003    3.6293e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    1.2222e-001    4.4444e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+93 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5778e-002    1.1347e-003    3.5122e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.2796e-001    1.1828e-001    4.3011e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+96 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5704e-002    1.0992e-003    3.4024e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3333e-001    1.1458e-001    4.1667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+99 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5659e-002    1.0659e-003    3.2993e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.3838e-001    1.1111e-001    4.0404e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+102 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5938e-002    1.0346e-003    3.2023e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4314e-001    1.0784e-001    3.9216e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+105 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5841e-002    1.0050e-003    3.1108e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4762e-001    1.0476e-001    3.8095e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+108 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5843e-002    9.7711e-004    3.0244e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5185e-001    1.0185e-001    3.7037e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+111 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5528e-002    9.5070e-004    2.9426e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4685e-001    9.9099e-002    3.6036e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+114 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5560e-002    1.0359e-003    2.8652e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4211e-001    1.0526e-001    3.5088e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+117 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5827e-002    1.0093e-003    2.7917e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.4615e-001    1.0256e-001    3.4188e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+120 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6185e-002    9.8409e-004    2.7219e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5000e-001    1.0000e-001    3.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+123 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6035e-002    9.6008e-004    2.6556e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5366e-001    9.7561e-002    3.2520e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+126 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5893e-002    9.3723e-004    2.5923e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.5714e-001    9.5238e-002    3.1746e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+129 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.5971e-002    9.1543e-004    2.5320e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.6047e-001    9.3023e-002    3.1008e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+132 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6217e-002    9.3269e-004    2.4745e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.6364e-001    9.8485e-002    3.0303e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+135 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6136e-002    9.1197e-004    2.4195e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.6667e-001    9.6296e-002    2.9630e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+138 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6131e-002    9.2856e-004    2.3669e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.6957e-001    1.0145e-001    2.8986e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+141 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6180e-002    9.0880e-004    2.3165e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7234e-001    9.9291e-002    2.8369e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+144 frames transmitted, 4 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6541e-002    8.8987e-004    2.2683e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7500e-001    9.7222e-002    2.7778e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+147 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6460e-002    9.2298e-004    2.7348e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7075e-001    1.0204e-001    3.4014e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+150 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6281e-002    9.0452e-004    2.6801e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7333e-001    1.0000e-001    3.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+153 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6406e-002    8.8679e-004    2.6275e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7582e-001    9.8039e-002    3.2680e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+156 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6235e-002    8.6973e-004    2.5770e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7821e-001    9.6154e-002    3.2051e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+159 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6671e-002    9.3233e-004    2.5284e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7421e-001    1.0063e-001    3.1447e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+162 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6812e-002    9.4609e-004    2.4815e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7654e-001    1.0494e-001    3.0864e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+165 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6690e-002    9.2889e-004    2.4364e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7273e-001    1.0303e-001    3.0303e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+168 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6825e-002    9.1230e-004    2.3929e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7500e-001    1.0119e-001    2.9762e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+171 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6809e-002    9.2568e-004    2.3509e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7719e-001    1.0526e-001    2.9240e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+174 frames transmitted, 5 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6779e-002    9.0972e-004    2.3104e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7356e-001    1.0345e-001    2.8736e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+177 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6708e-002    9.3689e-004    2.4132e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7006e-001    1.0734e-001    3.3898e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+180 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6778e-002    9.6315e-004    2.3730e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7222e-001    1.1111e-001    3.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+183 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6792e-002    9.4736e-004    2.3341e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7432e-001    1.0929e-001    3.2787e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+186 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6831e-002    9.3208e-004    2.2964e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7634e-001    1.0753e-001    3.2258e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+189 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6937e-002    9.1728e-004    2.2600e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7831e-001    1.0582e-001    3.1746e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+192 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6934e-002    9.0295e-004    2.2247e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8021e-001    1.0417e-001    3.1250e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+195 frames transmitted, 6 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7008e-002    9.7926e-004    2.1904e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8205e-001    1.1282e-001    3.0769e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+198 frames transmitted, 7 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7106e-002    1.0532e-003    2.5379e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8384e-001    1.1616e-001    3.5354e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+201 frames transmitted, 7 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7063e-002    1.0625e-003    2.5001e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8060e-001    1.1940e-001    3.4826e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+204 frames transmitted, 7 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7132e-002    1.0469e-003    2.4633e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8235e-001    1.1765e-001    3.4314e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+207 frames transmitted, 7 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7163e-002    1.0317e-003    2.4276e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8406e-001    1.1594e-001    3.3816e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+210 frames transmitted, 7 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7133e-002    1.0170e-003    2.3929e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8095e-001    1.1429e-001    3.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+213 frames transmitted, 7 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6951e-002    1.0027e-003    2.3592e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7793e-001    1.1268e-001    3.2864e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+216 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6902e-002    1.0120e-003    2.5591e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7963e-001    1.1574e-001    3.7037e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+219 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6957e-002    9.9814e-004    2.5240e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8128e-001    1.1416e-001    3.6530e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+222 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6852e-002    9.8465e-004    2.4899e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7838e-001    1.1261e-001    3.6036e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+225 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7018e-002    9.7152e-004    2.4567e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8000e-001    1.1111e-001    3.5556e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+228 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7213e-002    9.5874e-004    2.4244e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8158e-001    1.0965e-001    3.5088e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+231 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7207e-002    9.4629e-004    2.3929e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8312e-001    1.0823e-001    3.4632e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+234 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7158e-002    9.3416e-004    2.3622e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8462e-001    1.0684e-001    3.4188e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+237 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7302e-002    9.2233e-004    2.3323e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8608e-001    1.0549e-001    3.3755e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+240 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7169e-002    9.1080e-004    2.3032e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8333e-001    1.0417e-001    3.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+243 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6999e-002    8.9956e-004    2.2747e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8066e-001    1.0288e-001    3.2922e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+246 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6893e-002    8.8859e-004    2.2470e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8211e-001    1.0163e-001    3.2520e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+249 frames transmitted, 8 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7083e-002    8.7788e-004    2.2199e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8353e-001    1.0040e-001    3.2129e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+252 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7000e-002    8.9734e-004    2.4926e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8492e-001    1.0317e-001    3.5714e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+255 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7243e-002    8.8679e-004    2.4633e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8627e-001    1.0196e-001    3.5294e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+258 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7267e-002    8.7648e-004    2.4347e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8760e-001    1.0078e-001    3.4884e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+261 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7338e-002    8.6640e-004    2.4067e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    9.9617e-002    3.4483e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+264 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7207e-002    8.5656e-004    2.3793e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9015e-001    9.8485e-002    3.4091e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+267 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7136e-002    8.4693e-004    2.3526e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8764e-001    9.7378e-002    3.3708e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+270 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7197e-002    8.3752e-004    2.3264e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    9.6296e-002    3.3333e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+273 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7192e-002    8.2832e-004    2.3009e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8645e-001    9.5238e-002    3.2967e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+276 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7124e-002    8.1931e-004    2.2759e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8768e-001    9.4203e-002    3.2609e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+279 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7129e-002    8.1050e-004    2.2514e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    9.3190e-002    3.2258e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+282 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7018e-002    8.0188e-004    2.2274e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8298e-001    9.2199e-002    3.1915e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+285 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7050e-002    8.1989e-004    2.2040e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8421e-001    9.4737e-002    3.1579e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+288 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7064e-002    8.1135e-004    2.1810e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8542e-001    9.3750e-002    3.1250e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+291 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7156e-002    8.3752e-004    2.1586e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8660e-001    9.9656e-002    3.0928e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+294 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7075e-002    8.2897e-004    2.1365e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8776e-001    9.8639e-002    3.0612e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+297 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7114e-002    8.2906e-004    2.1150e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    1.0101e-001    3.0303e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+300 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7044e-002    8.2077e-004    2.0938e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9000e-001    1.0000e-001    3.0000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+303 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7057e-002    8.2923e-004    2.0731e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9109e-001    1.0231e-001    2.9703e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+306 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7095e-002    8.2110e-004    2.0527e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9216e-001    1.0131e-001    2.9412e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+309 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7141e-002    8.1313e-004    2.0328e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9320e-001    1.0032e-001    2.9126e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+312 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7201e-002    8.0531e-004    2.0133e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9423e-001    9.9359e-002    2.8846e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+315 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7365e-002    8.3752e-004    1.9941e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9524e-001    1.0159e-001    2.8571e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+318 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7232e-002    8.2962e-004    1.9753e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9308e-001    1.0063e-001    2.8302e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+321 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7212e-002    8.2187e-004    1.9568e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9408e-001    9.9688e-002    2.8037e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+324 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7123e-002    8.3752e-004    1.9387e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9506e-001    1.0185e-001    2.7778e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+327 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7119e-002    8.3752e-004    1.9209e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9602e-001    1.0398e-001    2.7523e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+330 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.7070e-002    8.2991e-004    1.9035e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9394e-001    1.0303e-001    2.7273e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+333 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6977e-002    8.2243e-004    1.8863e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9189e-001    1.0210e-001    2.7027e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+336 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6885e-002    8.1509e-004    1.8695e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8988e-001    1.0119e-001    2.6786e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+339 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6876e-002    8.0787e-004    1.8529e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.9086e-001    1.0029e-001    2.6549e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+342 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6905e-002    8.0813e-004    1.8367e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8596e-001    1.0234e-001    2.6316e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+345 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6925e-002    8.0111e-004    1.8207e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8406e-001    1.0145e-001    2.6087e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+348 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6909e-002    7.9420e-004    1.8050e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8506e-001    1.0057e-001    2.5862e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+351 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6865e-002    8.1605e-004    1.7896e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8604e-001    1.0256e-001    2.5641e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+354 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6843e-002    8.0913e-004    1.7744e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8701e-001    1.0169e-001    2.5424e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+357 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6912e-002    8.0233e-004    1.7595e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8796e-001    1.0084e-001    2.5210e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+360 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6876e-002    7.9564e-004    1.7448e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8611e-001    1.0000e-001    2.5000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+363 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6806e-002    7.8907e-004    1.7304e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8430e-001    9.9174e-002    2.4793e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+366 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6950e-002    7.8260e-004    1.7162e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8525e-001    9.8361e-002    2.4590e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+369 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6968e-002    7.9667e-004    1.7023e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8618e-001    1.0027e-001    2.4390e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+372 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6933e-002    7.9024e-004    1.6886e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8710e-001    9.9462e-002    2.4194e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+375 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6911e-002    7.8392e-004    1.6750e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8800e-001    9.8667e-002    2.4000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+378 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6843e-002    7.7770e-004    1.6617e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8889e-001    9.7884e-002    2.3810e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+381 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6790e-002    7.7157e-004    1.6487e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8714e-001    9.7113e-002    2.3622e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+384 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6757e-002    7.6555e-004    1.6358e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8802e-001    9.6354e-002    2.3438e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+387 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6835e-002    7.7260e-004    1.6231e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8630e-001    9.8191e-002    2.3256e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+390 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6718e-002    7.6665e-004    1.6106e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8205e-001    9.7436e-002    2.3077e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+393 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6648e-002    7.6080e-004    1.5983e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8041e-001    9.6692e-002    2.2901e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+396 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6598e-002    7.5504e-004    1.5862e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8131e-001    9.5960e-002    2.2727e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+399 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6681e-002    7.6196e-004    1.5743e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8221e-001    9.7744e-002    2.2556e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+402 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6738e-002    7.5627e-004    1.5625e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8308e-001    9.7015e-002    2.2388e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+405 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6670e-002    7.5067e-004    1.5510e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8148e-001    9.6296e-002    2.2222e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+408 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6664e-002    7.4515e-004    1.5396e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7990e-001    9.5588e-002    2.2059e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+411 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6616e-002    7.3971e-004    1.5283e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8078e-001    9.4891e-002    2.1898e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+414 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6580e-002    7.5862e-004    1.5172e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7923e-001    9.6618e-002    2.1739e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+417 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6678e-002    7.5317e-004    1.5063e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8010e-001    9.5923e-002    2.1583e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+420 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6637e-002    7.4779e-004    1.4956e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7857e-001    9.5238e-002    2.1429e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+423 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6638e-002    7.4248e-004    1.4850e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7707e-001    9.4563e-002    2.1277e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+426 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6644e-002    7.3725e-004    1.4745e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7793e-001    9.3897e-002    2.1127e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+429 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6645e-002    7.3210e-004    1.4642e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7879e-001    9.3240e-002    2.0979e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+432 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6622e-002    7.4446e-004    1.4540e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7963e-001    9.4907e-002    2.0833e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+435 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6583e-002    7.3933e-004    1.4440e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8046e-001    9.4253e-002    2.0690e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+438 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6521e-002    7.3426e-004    1.4341e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7900e-001    9.3607e-002    2.0548e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+441 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6545e-002    7.2927e-004    1.4244e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7982e-001    9.2971e-002    2.0408e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+444 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6592e-002    7.3566e-004    1.4147e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8063e-001    9.4595e-002    2.0270e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+447 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6537e-002    7.3072e-004    1.4052e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7919e-001    9.3960e-002    2.0134e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+450 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6555e-002    7.2585e-004    1.3959e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7778e-001    9.3333e-002    2.0000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+453 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6556e-002    7.2104e-004    1.3866e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7859e-001    9.2715e-002    1.9868e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+456 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6591e-002    7.1630e-004    1.3775e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7939e-001    9.2105e-002    1.9737e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+459 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6646e-002    7.1162e-004    1.3685e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8017e-001    9.1503e-002    1.9608e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+462 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6609e-002    7.0700e-004    1.3596e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8095e-001    9.0909e-002    1.9481e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+465 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6529e-002    7.0784e-004    1.3508e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7957e-001    9.2473e-002    1.9355e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+468 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6503e-002    7.0330e-004    1.3422e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8034e-001    9.1880e-002    1.9231e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+471 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6537e-002    7.0949e-004    1.3336e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8110e-001    9.3418e-002    1.9108e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+474 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6507e-002    7.0500e-004    1.3252e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8186e-001    9.2827e-002    1.8987e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+477 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6424e-002    7.0057e-004    1.3169e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8260e-001    9.2243e-002    1.8868e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+480 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6426e-002    6.9619e-004    1.3086e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8125e-001    9.1667e-002    1.8750e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+483 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6397e-002    6.9187e-004    1.3005e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7992e-001    9.1097e-002    1.8634e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+486 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6523e-002    6.8759e-004    1.2925e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8066e-001    9.0535e-002    1.8519e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+489 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6458e-002    6.8338e-004    1.2845e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8139e-001    8.9980e-002    1.8405e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+492 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6541e-002    6.8942e-004    1.2767e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8211e-001    9.1463e-002    1.8293e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+495 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6583e-002    6.8524e-004    1.2690e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8283e-001    9.0909e-002    1.8182e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+498 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6539e-002    6.8112e-004    1.2613e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8153e-001    9.0361e-002    1.8072e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+501 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6555e-002    6.7704e-004    1.2538e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8224e-001    8.9820e-002    1.7964e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+504 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6586e-002    6.7799e-004    1.2463e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8294e-001    9.1270e-002    1.7857e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+507 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6641e-002    6.8885e-004    1.2389e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8363e-001    9.2702e-002    1.7751e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+510 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6657e-002    6.8480e-004    1.2316e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8431e-001    9.2157e-002    1.7647e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+513 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6599e-002    6.8079e-004    1.2244e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8304e-001    9.1618e-002    1.7544e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+516 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6653e-002    6.8657e-004    1.2173e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8372e-001    9.3023e-002    1.7442e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+519 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6687e-002    6.8260e-004    1.2103e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8439e-001    9.2486e-002    1.7341e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+522 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6702e-002    6.7868e-004    1.2033e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8314e-001    9.1954e-002    1.7241e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+525 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6770e-002    6.7480e-004    1.1965e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8381e-001    9.1429e-002    1.7143e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+528 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6769e-002    6.7097e-004    1.1897e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8447e-001    9.0909e-002    1.7045e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+531 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6736e-002    6.6718e-004    1.1829e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8324e-001    9.0395e-002    1.6949e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+534 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6779e-002    6.7284e-004    1.1763e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8390e-001    9.1760e-002    1.6854e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+537 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6760e-002    6.6908e-004    1.1697e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8454e-001    9.1248e-002    1.6760e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+540 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6769e-002    6.6536e-004    1.1632e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8519e-001    9.0741e-002    1.6667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+543 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6764e-002    6.7094e-004    1.1568e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8582e-001    9.2081e-002    1.6575e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+546 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6773e-002    6.6726e-004    1.1504e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8645e-001    9.1575e-002    1.6484e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+549 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6750e-002    6.6361e-004    1.1442e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8707e-001    9.1075e-002    1.6393e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+552 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6810e-002    6.7366e-004    1.1379e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8768e-001    9.2391e-002    1.6304e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+555 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6741e-002    6.7002e-004    1.1318e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8649e-001    9.1892e-002    1.6216e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+558 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6705e-002    6.6641e-004    1.1257e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8351e-001    9.1398e-002    1.6129e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+561 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6692e-002    6.6285e-004    1.1197e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8414e-001    9.0909e-002    1.6043e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+564 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6675e-002    6.5932e-004    1.1137e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8298e-001    9.0426e-002    1.5957e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+567 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6702e-002    6.5584e-004    1.1078e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8360e-001    8.9947e-002    1.5873e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+570 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6662e-002    6.5238e-004    1.1020e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8421e-001    8.9474e-002    1.5789e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+573 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6606e-002    6.4897e-004    1.0962e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8307e-001    8.9005e-002    1.5707e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+576 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6589e-002    6.4559e-004    1.0905e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8368e-001    8.8542e-002    1.5625e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+579 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6586e-002    6.4224e-004    1.0849e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8428e-001    8.8083e-002    1.5544e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+582 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6569e-002    6.3893e-004    1.0793e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8488e-001    8.7629e-002    1.5464e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+585 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6501e-002    6.3566e-004    1.0737e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8376e-001    8.7179e-002    1.5385e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+588 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6456e-002    6.3241e-004    1.0683e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8435e-001    8.6735e-002    1.5306e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+591 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6444e-002    6.2920e-004    1.0628e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8494e-001    8.6294e-002    1.5228e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+594 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6471e-002    6.3449e-004    1.0575e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8384e-001    8.7542e-002    1.5152e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+597 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6515e-002    6.3130e-004    1.0522e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8442e-001    8.7102e-002    1.5075e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+600 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6554e-002    6.2814e-004    1.0469e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8500e-001    8.6667e-002    1.5000e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+603 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6634e-002    6.4585e-004    1.0417e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8557e-001    8.7894e-002    1.4925e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+606 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6663e-002    6.5094e-004    1.0365e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8614e-001    8.9109e-002    1.4851e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+609 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6701e-002    6.6012e-004    1.0314e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8670e-001    9.0312e-002    1.4778e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+612 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6681e-002    6.5688e-004    1.0264e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8562e-001    8.9869e-002    1.4706e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+615 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6701e-002    6.5367e-004    1.0214e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8618e-001    8.9431e-002    1.4634e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+618 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6698e-002    6.7490e-004    1.0164e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8673e-001    9.0615e-002    1.4563e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+621 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6629e-002    6.7164e-004    1.0115e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8406e-001    9.0177e-002    1.4493e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+624 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6605e-002    6.6841e-004    1.0066e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8301e-001    8.9744e-002    1.4423e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+627 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6638e-002    6.6922e-004    1.0018e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8357e-001    9.0909e-002    1.4354e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+630 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6607e-002    6.6603e-004    9.9705e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8254e-001    9.0476e-002    1.4286e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+633 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6604e-002    6.6287e-004    9.9232e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8310e-001    9.0047e-002    1.4218e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+636 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6569e-002    6.5975e-004    9.8764e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8208e-001    8.9623e-002    1.4151e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+639 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6566e-002    6.5665e-004    9.8301e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8263e-001    8.9202e-002    1.4085e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+642 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6535e-002    6.5358e-004    9.7841e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8318e-001    8.8785e-002    1.4019e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+645 frames transmitted, 9 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6676e-002    6.8170e-004    9.7386e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8372e-001    8.9922e-002    1.3953e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+648 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6743e-002    6.9793e-004    1.0857e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8426e-001    9.2593e-002    1.5432e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+651 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6723e-002    6.9472e-004    1.0807e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8326e-001    9.2166e-002    1.5361e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+654 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6677e-002    6.9153e-004    1.0757e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8379e-001    9.1743e-002    1.5291e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+657 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6712e-002    6.8837e-004    1.0708e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8432e-001    9.1324e-002    1.5221e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+660 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6758e-002    7.0428e-004    1.0659e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8485e-001    9.3939e-002    1.5152e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+663 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6728e-002    7.0109e-004    1.0611e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8386e-001    9.3514e-002    1.5083e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+666 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6690e-002    6.9793e-004    1.0563e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8288e-001    9.3093e-002    1.5015e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+669 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6675e-002    7.0232e-004    1.0516e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8191e-001    9.4170e-002    1.4948e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+672 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6664e-002    6.9918e-004    1.0469e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8244e-001    9.3750e-002    1.4881e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+675 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6631e-002    6.9607e-004    1.0422e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8148e-001    9.3333e-002    1.4815e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+678 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6598e-002    6.9299e-004    1.0376e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8053e-001    9.2920e-002    1.4749e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+681 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6621e-002    6.8994e-004    1.0331e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8106e-001    9.2511e-002    1.4684e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+684 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6725e-002    6.9426e-004    1.0285e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8158e-001    9.3567e-002    1.4620e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+687 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6714e-002    6.9123e-004    1.0240e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8210e-001    9.3159e-002    1.4556e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+690 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6699e-002    6.9551e-004    1.0196e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7971e-001    9.4203e-002    1.4493e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+693 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6653e-002    6.9250e-004    1.0152e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8023e-001    9.3795e-002    1.4430e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+696 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6657e-002    6.8951e-004    1.0108e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8075e-001    9.3391e-002    1.4368e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+699 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6650e-002    6.9374e-004    1.0065e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7983e-001    9.4421e-002    1.4306e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+702 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6657e-002    6.9078e-004    1.0022e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7892e-001    9.4017e-002    1.4245e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+705 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6654e-002    6.8784e-004    9.9790e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7943e-001    9.3617e-002    1.4184e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+708 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6662e-002    6.9557e-004    9.9367e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7994e-001    9.4633e-002    1.4124e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+711 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6669e-002    6.9263e-004    9.8948e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8045e-001    9.4233e-002    1.4065e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+714 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6631e-002    6.8972e-004    9.8532e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7955e-001    9.3838e-002    1.4006e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+717 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6610e-002    6.8684e-004    9.8120e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7866e-001    9.3445e-002    1.3947e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+720 frames transmitted, 10 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6618e-002    6.8398e-004    9.7711e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7917e-001    9.3056e-002    1.3889e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+723 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6598e-002    7.1936e-004    1.0773e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7967e-001    9.5436e-002    1.5214e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+726 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6622e-002    7.1639e-004    1.0729e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8017e-001    9.5041e-002    1.5152e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+729 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6585e-002    7.1344e-004    1.0684e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7929e-001    9.4650e-002    1.5089e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+732 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6586e-002    7.1052e-004    1.0641e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7978e-001    9.4262e-002    1.5027e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+735 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6569e-002    7.0762e-004    1.0597e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7891e-001    9.3878e-002    1.4966e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+738 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6556e-002    7.0474e-004    1.0554e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7805e-001    9.3496e-002    1.4905e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+741 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6571e-002    7.1206e-004    1.0511e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7854e-001    9.4467e-002    1.4845e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+744 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6551e-002    7.0919e-004    1.0469e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7903e-001    9.4086e-002    1.4785e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+747 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6518e-002    7.0634e-004    1.0427e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7952e-001    9.3708e-002    1.4726e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+750 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6533e-002    7.2362e-004    1.0385e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8000e-001    9.4667e-002    1.4667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+753 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6544e-002    7.2074e-004    1.0344e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8048e-001    9.4290e-002    1.4608e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+756 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6564e-002    7.1788e-004    1.0303e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7963e-001    9.3915e-002    1.4550e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+759 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6558e-002    7.1504e-004    1.0262e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8011e-001    9.3544e-002    1.4493e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+762 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6546e-002    7.1222e-004    1.0222e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7927e-001    9.3176e-002    1.4436e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+765 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6563e-002    7.0943e-004    1.0182e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7974e-001    9.2810e-002    1.4379e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+768 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6508e-002    7.0666e-004    1.0142e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7760e-001    9.2448e-002    1.4323e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+771 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6584e-002    7.2998e-004    1.0102e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7808e-001    9.3385e-002    1.4267e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+774 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6601e-002    7.2715e-004    1.0063e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7855e-001    9.3023e-002    1.4212e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+777 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6615e-002    7.2434e-004    1.0024e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7902e-001    9.2664e-002    1.4157e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+780 frames transmitted, 11 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6599e-002    7.2156e-004    9.9858e-005    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7949e-001    9.2308e-002    1.4103e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+783 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6606e-002    7.2521e-004    1.0589e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7995e-001    9.3231e-002    1.5326e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+786 frames transmitted, 12 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6597e-002    7.2244e-004    1.0549e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7913e-001    9.2875e-002    1.5267e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+789 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6613e-002    7.4517e-004    1.1146e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7959e-001    9.3790e-002    1.6477e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+792 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6608e-002    7.4235e-004    1.1103e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.8005e-001    9.3434e-002    1.6414e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+795 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6573e-002    7.3955e-004    1.1062e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7925e-001    9.3082e-002    1.6352e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+798 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6590e-002    7.3677e-004    1.1020e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7845e-001    9.2732e-002    1.6291e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+801 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6609e-002    7.3401e-004    1.0979e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7765e-001    9.2385e-002    1.6230e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+804 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6622e-002    7.5002e-004    1.0938e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7687e-001    9.4527e-002    1.6169e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+807 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6629e-002    7.4723e-004    1.0897e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7732e-001    9.4176e-002    1.6109e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+810 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6620e-002    7.4446e-004    1.0857e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7654e-001    9.3827e-002    1.6049e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+813 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6673e-002    7.6026e-004    1.0817e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7700e-001    9.4711e-002    1.5990e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+816 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6670e-002    7.5746e-004    1.0777e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7745e-001    9.4363e-002    1.5931e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+819 frames transmitted, 13 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6649e-002    7.5469e-004    1.0737e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7790e-001    9.4017e-002    1.5873e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+822 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6662e-002    7.5805e-004    1.1310e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7835e-001    9.4891e-002    1.7032e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+825 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6644e-002    7.5529e-004    1.1268e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7879e-001    9.4545e-002    1.6970e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+828 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6617e-002    7.5256e-004    1.1228e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7802e-001    9.4203e-002    1.6908e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+831 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6645e-002    7.4984e-004    1.1187e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7846e-001    9.3863e-002    1.6847e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+834 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6660e-002    7.4714e-004    1.1147e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7890e-001    9.3525e-002    1.6787e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+837 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6648e-002    7.4446e-004    1.1107e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7933e-001    9.3190e-002    1.6726e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+840 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6643e-002    7.5078e-004    1.1067e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7857e-001    9.4048e-002    1.6667e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+843 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6676e-002    7.4811e-004    1.1028e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7900e-001    9.3713e-002    1.6607e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+846 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6703e-002    7.4545e-004    1.0989e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7943e-001    9.3381e-002    1.6548e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+849 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6724e-002    7.4282e-004    1.0950e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7986e-001    9.3051e-002    1.6490e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+852 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6683e-002    7.4020e-004    1.0911e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7911e-001    9.2723e-002    1.6432e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+855 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6724e-002    7.4936e-004    1.0873e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7953e-001    9.4737e-002    1.6374e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+858 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6706e-002    7.4674e-004    1.0835e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7879e-001    9.4406e-002    1.6317e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+861 frames transmitted, 14 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6677e-002    7.4414e-004    1.0797e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7921e-001    9.4077e-002    1.6260e-002    
+***********************************************
+
+************** Eb/N0 =  2.00 db **************
+Frame size = 400, rate 1/3. 
+862 frames transmitted, 15 frames in error.
+Bit Error Rate (from iteration 1 to iteration 3):
+1.6699e-002    7.6951e-004    1.1076e-004    
+Frame Error Rate (from iteration 1 to iteration 3):
+8.7935e-001    9.5128e-002    1.7401e-002    
+***********************************************
+
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5       
+ Please enter number of frame errors to terminate: default 15        
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Documents and Settings\Administrator\桌面\turbo码的研究\turbo码\WuYufei_matlab\turbo_sys_demo.m',107,1)">107 </a>for nEN = 1:length(EbN0db)
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbquit all
+dbclear ('C:\Documents and Settings\Administrator\桌面\turbo码的研究\turbo码\WuYufei_matlab\turbo_sys_demo.m', '107')
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5       
+ Please enter number of frame errors to terminate: default 15        
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Documents and Settings\Administrator\桌面\turbo码的研究\turbo码\WuYufei_matlab\turbo_sys_demo.m',123,1)">123 </a>      r = en_output+sigma*randn(1,L_total*(2+puncture)); % received bits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbquit all
+dbclear all
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5       
+ Please enter number of frame errors to terminate: default 15        
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Documents and Settings\Administrator\桌面\turbo码的研究\turbo码\WuYufei_matlab\turbo_sys_demo.m',127,1)">127 </a>      rec_s = 0.5*L_c*yk;
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    {??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Documents and Settings\Administrator\桌面\turbo码的研究\turbo码\WuYufei_matlab\turbo_sys_demo.m',25,0)">turbo_sys_demo at 25</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+turbo_sys_demo
+ Please enter the decoding algorithm. (0:Log-MAP, 1:SOVA)  default 0    
+ Please enter the frame size (= info + tail, default: 400)   
+ Please enter code generator: ( default: g = [1 1 1; 1 0 1 ] )      
+ Please choose punctured / unpunctured (0/1): default 0     
+ Please enter number of iterations for each frame: default 5       
+ Please enter number of frame errors to terminate: default 15        
+ Please enter Eb/N0 in dB : default [2.0]    
+
+
+----------------------------------------------------
+ === Log-MAP decoder === 
+ Frame size =    400
+ code generator: 
+     1     1     1
+     1     0     1
+ Punctured, code rate = 1/2 
+ iteration number =       5
+ terminate frame errors =     15
+ Eb / N0 (dB) =       2.00
+----------------------------------------------------
+
++ + + + Please be patient. Wait a while to get the result. + + + +
+<a href="matlab: opentoline('C:\Documents and Settings\Administrator\桌面\turbo码的研究\turbo码\WuYufei_matlab\turbo_sys_demo.m',121,1)">121 </a>      en_output = encoderm( x, g, alpha, puncture ) ; % 进行turbo编码 (+1/-1)
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end

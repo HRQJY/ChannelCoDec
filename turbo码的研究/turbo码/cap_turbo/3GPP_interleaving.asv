@@ -1,0 +1,19 @@
+%****************************************************************
+% 内容概述：3GPP标准交织器
+% 创 建 人：朱殿荣/QQ:235347/MSN:njzdr@msn.com
+% 单    位：南京邮电大学，通信工程系
+% 创建时间：2005年9月11日
+% 修改时间：
+% 参考文献：
+% 版权声明：任何人均可复制、传播、修改此文件，同时需保留原始版权信息。
+%****************************************************************
+%   K	Number of bits input to Turbo code internal interleaver
+%   R	Number of rows of rectangular matrix
+%   C	Number of columns of rectangular matrix
+%   p	Prime number
+%   v	Primitive root
+
+function y=com_decoder_cap(x)
+K=length(x);
+if K>=40 & K<=159
+    

@@ -1,0 +1,15 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 9.2.00.967             D:/xilinx/dsp_tools/sysgen
+AccelDSP 9.2.00.967                     D:/xilinx/dsp_tools/AccelDSP
+Matlab 7.4.0.287 (R2007a)               D:/matlab
+ISE 9.2.i                               D:/xilinx/ise92i
+--------------------------- Sysgen Generator Profile ---------------------------
+Simulink: Outside System Generator                          28.13      (s)
+Sysgen: Block Configuration                                 0.05       (s)
+Sysgen: Compile                                             0.03       (s)
+Sysgen: Initialize Simulation                               0.03       (s)
+Sysgen: Simulation                                          15.68      (s)
+Sysgen: Terminate                                           0.00       (s)
+Total                                                       43.92      (s)
+-------------------------------------- ** --------------------------------------

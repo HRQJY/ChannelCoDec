@@ -1,0 +1,9 @@
+x=0;
+m=0;
+while(((m==8||m==9)&&(m<16))
+    m=m+1;
+ for i=0:5;
+    x=m*m;
+end
+end
+x

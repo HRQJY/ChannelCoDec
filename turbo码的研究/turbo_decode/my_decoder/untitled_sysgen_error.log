@@ -1,0 +1,23 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 9.2.00.967             D:/xilinx/dsp_tools/sysgen
+AccelDSP 9.2.00.967                     D:/xilinx/dsp_tools/AccelDSP
+Matlab 7.4.0.287 (R2007a)               D:/matlab
+ISE 9.2.i                               D:/xilinx/ise92i
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Illegal Period, This blocks attempts to set period that i...
+     Block: 'untitled/DDS v5_0 '
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/DDS v5_0 '
+
+Details:
+Illegal Period, This blocks attempts to set period that is a
+non-integer multiple of the system rate
+Error occurred during "Rate and Type Propagation".
+
+--------------------------------------------------------------------------------

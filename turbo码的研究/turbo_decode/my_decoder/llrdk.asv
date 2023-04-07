@@ -1,0 +1,54 @@
+%company: DLMU.EDU.CN
+%project: LTE Turbo Decoder
+%sub project: SISO
+%engineer: prowwei
+%module name: lrr()
+%description: 似然比
+%             输入为整个码片长度,分支量度的右半边: N*2*M 维数组
+%                               前向量度: N*M 维数组
+%                               后向量度:N*M
+%             输出为似然比: N*1
+%version: v1.0
+%             硬件实现时,不需对整个码片长度求值,这也不现实.
+%                        使用滑动窗法，只需对一个窗长度L进行求值.
+function value_Llrdk = llrdk(value_Alpha,value_Belta,value_Delta)
+    global N;
+    global M;
+    %global L;
+    %initial MEM
+    value_Llrdk = zeros(N,1);
+    %用A,B,D简化变量名
+    A = value_Alpha;
+    B = value_Belta;
+    D = value_Delta;
+    %外信息分为两部分,dk=1/dk=0,分别用Le_1和Le_0表示
+    Le_1 = zeros(N,1);
+    Le_0 = zeros(N,1);
+    %计算A(N,m) + B(N,m) + D(N,i,m)
+    ABD = zeros(N,2,M);
+    for k=1:1:N
+        for m=1:1:M
+            for i=1:1:2 %i=0 or i=1
+                ABD(k,i,m) = A(k,m) + B(k,f(i,m)) + D(k,i,m);
+            end
+        end
+    end
+    %------------------------
+    %caculate Le_1 and Le_0
+    for k=1:1:N
+        sum_tmp1 = 0;
+        sum_tmp2 = 0;
+        for m=1:1:M
+            i=1;
+            sum_tmp1 = sum_tmp1 + exp(ABD(k,i,m));
+            i=2;
+            sum_tmp2 = sum_tmp2 + exp(ABD(k,i,m));
+        end
+        Le_0(k) = ln(sum_tmp1);
+        Le_1(k) = ln(sum_tmp2);
+    end
+    %-------------------
+    value_Llrdk = Le_1 - Le_0;  %N*1数组
+    %-------------------
+end %function end
+
